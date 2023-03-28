@@ -18,6 +18,10 @@ h4 {
 	font-size: 25px;
 	opacity: 0;
 }
+p {
+	margin-top: 25px;
+	text-align: center;
+}
 label {
 	font-size: 30px;
 }
