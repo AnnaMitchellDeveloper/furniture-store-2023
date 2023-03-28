@@ -1,0 +1,36 @@
+body {
+  font-family: "Dancing Script", cursive;
+  background: #F9F5E7;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.container {
+ display: flex;
+}
+.item {
+	height: 90vh;
+   background-size: cover;
+	background-position: center;
+	flex:1;
+	margin: 5px;
+}
+.first-item {
+  background-image: url("https://images.unsplash.com/photo-1519961655809-34fa156820ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c29mYXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+.second-item {
+  background-image: url("https://images.unsplash.com/photo-1506898667547-42e22a46e125?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c29mYXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+.third-item {
+  background-image: url("https://images.unsplash.com/photo-1615800002234-05c4d488696c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNvZmF8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+.fourth-item {
+  background-image: url("https://images.unsplash.com/photo-1611967164521-abae8fba4668?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c29mYXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60");
+}
+.fifth-item {
+  background-image: url("https://images.unsplash.com/photo-1636651430146-00b72284bfbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNvZmF8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+.sixth-item {
+	background-image: url('https://images.unsplash.com/photo-1579656592043-a20e25a4aa4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNvZmF8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+}
