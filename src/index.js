@@ -3,8 +3,29 @@ function openStoreCountdown(){
   const currentDay = new Date();
   const difference = openStoreDay - currentDay;
 
-  
+  const msInSecond = 1000;
+  const msInMinute = 60 * 1000;
+  const msInHour = 60 * 60 * 1000;
+  const msInDay = 24 * 60 * 60 * 1000;
+
+  const displayDay = Math.floor(difference/msInDay);
+  document.querySelector('.days').textContent = displayDay;
+  const displayHour = Math.floor((difference%msInDay)/msInHour);
+  document.querySelector('.hours').textContent = displayHour;
+  const displayMinute = Math.floor((difference%msInHour)/msInMinute);
+  document.querySelector('.minutes').textContent = displayMinute;
+  const displaySecond = Math.floor((difference%msInMinute)/msInSecond);
+  document.querySelector('.seconds').textContent = displaySecond;
+  if(difference <= 0){
+    document.querySelector('.days').textContent = 0;
+    document.querySelector('.hours').textContent = 0;
+    document.querySelector('.minutes').textContent = 0;
+    document.querySelector('.seconds').textContent = 0;
+    clearInterval(timerID);
+
+  }
 }
+let  timerID = setInterval(openStoreCountdown, 1000);
 
 const items = document.querySelectorAll(".item");
 
