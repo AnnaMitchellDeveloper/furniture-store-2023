@@ -28,6 +28,22 @@ label {
 .container {
  display: flex;
 }
+.container-for-countdouwn {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.open-soon {
+	background-color: rgba(251, 248, 249, 0.82); 
+	width: 200px;
+	height: 250px;
+	border-radius: 10px;
+}
+.block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .flex-center {
 	display: flex;
 	justify-content: center;
