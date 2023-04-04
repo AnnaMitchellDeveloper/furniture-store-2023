@@ -50,8 +50,8 @@ label {
 	align-items: center;
 }
 .open-store-moment {
-	color: #227ea6;
-	font-size: 40px;
+	color: red;
+	font-size: 70px;
 }
 .flex-center {
 	display: flex;
