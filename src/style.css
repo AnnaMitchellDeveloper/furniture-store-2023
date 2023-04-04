@@ -9,6 +9,7 @@ h1 {
 h3 {
 	text-align: center;
 	font-size: 50px;
+	margin: 0;
 }
 h4 {
 	position: absolute;
@@ -16,7 +17,11 @@ h4 {
 	left: 40px;
 	background-color: white;
 	font-size: 25px;
-	opacity: 0;
+	color: black;
+}
+h5 {
+	font-size: 25px;
+	
 }
 p {
 	margin-top: 25px;
@@ -30,7 +35,7 @@ label {
 }
 .container-for-countdouwn {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
 .open-soon {
@@ -43,6 +48,10 @@ label {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.open-store-moment {
+	color: #227ea6;
+	font-size: 40px;
 }
 .flex-center {
 	display: flex;

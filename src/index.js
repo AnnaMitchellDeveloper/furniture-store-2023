@@ -1,5 +1,5 @@
 function openStoreCountdown(){
-  const openStoreDay = new Date('December 1, 2023 00:00');
+  const openStoreDay = new Date('April 4, 2024 19:21');
   const currentDay = new Date();
   const difference = openStoreDay - currentDay;
 
@@ -22,10 +22,18 @@ function openStoreCountdown(){
     document.querySelector('.minutes').textContent = 0;
     document.querySelector('.seconds').textContent = 0;
     clearInterval(timerID);
-
+    openStoreDay();
   }
 }
-let  timerID = setInterval(openStoreCountdown, 1000);
+let timerID = setInterval(openStoreCountdown, 1000);
+
+function openStoreDay() {
+  const heading = document.querySelector("h1");
+  heading.textContent = "We are opened! Welcome!";
+  heading.classList.add("open-store-moment");
+}
+
+
 
 const items = document.querySelectorAll(".item");
 
